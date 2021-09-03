@@ -5,13 +5,13 @@
 .val1 {
   height: 24px;
   border-radius: 8px;
-  border-color: #d2d2d2;
+  border: 1px solid #d2d2d2;
 }
 
 .val2 {
   height: 24px;
   border-radius: 8px;
-  border-color: #d2d2d2;
+  border: 1px solid #d2d2d2;
 }
 
 .equals {
@@ -43,5 +43,22 @@
   padding: 48px;
   margin: 48px 0px;
   border-radius: 8px;
+}
+
+.clear {
+  height: 48px;
+  padding: 16px 24px;
+  width: 100%;
+  border: none;
+  background-color: none;
+  color: #222222;
+  border-radius: 8px;
+  border-color: #222222;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.clear:hover {
+  cursor: pointer;
+  background-color: #d2d2d2;
 }
 /*# sourceMappingURL=main.css.map */

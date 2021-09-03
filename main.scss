@@ -1,7 +1,8 @@
 
 @import "colours";
 
-@mixin displaytype(){
+@mixin displaytype()
+{
     display: inline-block;
 }
 
@@ -10,6 +11,7 @@
     height: 24px;
     border-radius: 8px;
     border: 1px solid $grey5;
+}
 
 .takeval
 {
@@ -61,4 +63,22 @@
     margin: 48px 0px;
     border-radius: 8px;
 
+}
+
+.clear
+{
+   height: 48px;
+   padding: 16px 24px;
+   width:100%;
+   border: none;
+   background-color: none;
+   color: $grey1;
+   border-radius: 8px;
+   border-color: $grey1;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.clear:hover {
+    cursor: pointer;
+    background-color: $grey5;
 }

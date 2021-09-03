@@ -25,6 +25,7 @@
             </select>
             <input type="number" class="val2" name="secondvalue" id="value2"><br>
             <button onclick="finalval()" class="equals">See Result</button>
+            <button onclick="clearres()" class="clear">Clear Result</button>
         </div>
         
 
@@ -60,6 +61,11 @@
                     final=x*y;
                     document.getElementById("result").innerHTML=final;
                 }
+            }
+
+            function clearres()
+            {
+                document.getElementById("result").innerHTML="  "; 
             }
         </script>
     </center>
