@@ -1,0 +1,47 @@
+.takeval {
+  display: inline-block;
+}
+
+.val1 {
+  height: 24px;
+  border-radius: 8px;
+  border-color: #d2d2d2;
+}
+
+.val2 {
+  height: 24px;
+  border-radius: 8px;
+  border-color: #d2d2d2;
+}
+
+.equals {
+  margin: 48px 0px;
+  height: 48px;
+  padding: 16px 24px;
+  width: 100%;
+  border: none;
+  background-color: indigo;
+  color: white;
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.equals:hover {
+  background: #ff5f00;
+  cursor: pointer;
+}
+
+.title {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.res {
+  font-size: 48px;
+  color: #ff5f00;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f2f2;
+  padding: 48px;
+  margin: 48px 0px;
+  border-radius: 8px;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Static Calculator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body><center>
+        <h1 class="title">Simple calculator</h1>
+        
+        
+        
+        <div class="takeval">
+            <div class="res"id="result"></div>
+            <input type="number" class="val1" name="firstvalue" id="value1">
+            <select name="ops" id="operator">
+                <option value="add">+</option>
+                <option value="sub">-</option>
+                <option value="by">/</option>
+                <option value="into">*</option>
+            </select>
+            <input type="number" class="val2" name="secondvalue" id="value2"><br>
+            <button onclick="finalval()" class="equals">See Result</button>
+        </div>
+        
+
+
+        <script>
+            
+            function finalval()
+            {
+                var x= document.getElementById('value1').valueAsNumber;
+                var op= document.getElementById('operator').value;
+                var y= document.getElementById('value2').valueAsNumber;
+                var final=0;
+                // console.log(x)
+                // console.log(y)
+                // console.log(op)
+
+                if(op=="add"){
+                    final=x+y;
+                    document.getElementById("result").innerHTML=final;
+                }
+                else if(op=="sub")
+                {
+                    final=x-y;
+                    document.getElementById("result").innerHTML=final;
+                }
+                else if(op=="by")
+                {
+                    final=x/y;
+                    document.getElementById("result").innerHTML=final;
+                }
+                else if(op=="into")
+                {
+                    final=x*y;
+                    document.getElementById("result").innerHTML=final;
+                }
+            }
+        </script>
+    </center>
+    </body>
+</html>
