@@ -29,7 +29,7 @@
 
 .equals
 {
-   margin: 48px 0px;
+   margin: 48px 0px 16px 0px;
    height: 48px;
    padding: 16px 24px;
    width:100%;
@@ -59,9 +59,11 @@
     color: $primary;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: $grey6;
-    padding: 48px;
+    justify-content: center;
+    line-height: 120px;
     margin: 48px 0px;
     border-radius: 8px;
+    height: 120px;
 
 }
 
@@ -70,11 +72,9 @@
    height: 48px;
    padding: 16px 24px;
    width:100%;
-   border: none;
-   background-color: none;
    color: $grey1;
    border-radius: 8px;
-   border-color: $grey1;
+   border: none;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
